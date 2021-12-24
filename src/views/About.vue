@@ -46,7 +46,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Secular+One&display=swap');
 
-img {
+#imgPhone {
   border-collapse: separate; 
   border-radius: 450px;
 }
