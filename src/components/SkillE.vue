@@ -41,7 +41,7 @@
         
       </div>
       <div id="all">
-         <div id="c1" class="col-12 d-inline-flex flex-wrap">
+         <div id="c1" class="col-11 d-inline-flex flex-wrap">
             <v-card
             class="d-inline-block ml-4 col-md-3 col-5"
             v-for="(cer,i) in inside1"
