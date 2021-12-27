@@ -3,10 +3,10 @@
     <div>
       <div id="whiteBlockComputer" class="col-12 d-none d-md-flex d-lg-flex d-xl-flex" style="height: 40vh">
         <div id="nameComputer" class="col-6 d-flex align-end  my-n8"><Name/></div>
-        <div class="col-6 d-inline-flex d-flex justify-center mt-16 pt-16" style="height:80vh"><img src="../assets/logo.png" alt="Vue logo"></div>
+        
       </div>
-      <div id="whiteBlockPhone" class="col-12 d-sm-none" style="height:15vh">
-        <div><img src="../assets/logo.png" alt="Vue logo" style="height:18vh; margin-top:5vh;"></div>
+      <div id="whiteBlockPhone" class="col-12 d-md-none" style="height:15vh">
+        <div id="namePhone" style="color:white"><Name/></div>
       </div>
       <div id="blackBlockComputer" class="col-12 d-none d-md-flex d-lg-flex d-xl-flex" style="height: 60vh; background-color: rgb(49, 49, 49);">
         <div class=" d-flex align-center" style="padding:0px;"></div>
@@ -21,18 +21,17 @@
         
         
       </div>
-      <div id="blackBlockPhone" class="col-12 d-sm-none align-center" style="background-color: rgb(49, 49, 49);">
-        <div id="line" class="col-4"><hr></div>
-        <div id="namePhone" style="color:white"><Name/></div>
+      <div id="blackBlockPhone" class="col-12 d-md-none align-center" style="background-color: rgb(49, 49, 49); height:20vh">
+        
       </div>
-      <div id="introPhone" class="d-sm-none" ><Intro/></div>
+      <div id="introPhone" class="d-md-none" ><Intro/></div>
       <div id="skill">
         
       </div>
       <div id="skillComputer" class="col-12 d-none d-md-flex d-lg-flex d-xl-flex">
           <Skill/>
       </div>
-      <div id="skillPhone" class="d-sm-none align-center">
+      <div id="skillPhone" class="d-md-none align-center">
           <Skill/>
       </div>
     </div>
@@ -48,7 +47,7 @@
 
 #nameComputer {
   h1 {
-    font-size: 100px;
+    font-size: 10vw;
     font-weight: 800;
     margin-left: 15vw;
     color:rgb(49, 49, 49);
@@ -57,7 +56,9 @@
 #namePhone {
   h1 {
     font-weight: 900;
-
+    text-shadow: 1px -3px 5px black;
+    margin-top: 5vh;
+    font-size: 20vw;
   }
 }
 #introComputer {
@@ -91,10 +92,7 @@
     text-align: left;
   }
 }
-#line {
-  padding-top: 60px;
-  margin: auto;
-}
+
 #introPhone {
   
   body {

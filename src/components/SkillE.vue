@@ -31,7 +31,6 @@
               <v-btn  
               :class="{ 'on-hover': hover }"   
               fab
-              @click="giveState(1)"
               >
                 WEBSITE
 

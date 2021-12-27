@@ -1,14 +1,14 @@
 <template>
   <v-app>
     <div>
-      <div id="whiteBlockComputer" class="col-12 d-none d-md-flex d-lg-flex d-xl-flex" style="height: 40vh">
-        <div id="nameComputer" class="col-6 d-flex align-end  my-n8"><NameE/></div>
-        <div class="col-6 d-inline-flex d-flex justify-center mt-16 pt-16" style="height:80vh"><img src="../assets/logo.png" alt="Vue logo" ></div>
+      <div id="whiteBlockComputerE" class="col-12 d-none d-md-flex d-lg-flex d-xl-flex" style="height: 40vh">
+        <div id="nameComputerE" class="col-6 d-flex align-end  my-n8"><NameE/></div>
+        
       </div>
-      <div id="whiteBlockPhone" class="col-12 d-sm-none" style="height:15vh">
-        <div><img id="imgPhone" src="../assets/logo.png" alt="Vue logo" style="height:18vh; margin-top:5vh;border-radius:450px"></div>
+      <div id="whiteBlockPhoneE" class="col-12 d-md-none" style="height:15vh">
+        <div id="namePhoneE" style="color:white"><NameE/></div>
       </div>
-      <div id="blackBlockComputer" class="col-12 d-none d-md-flex d-lg-flex d-xl-flex" style="height: 60vh; background-color: rgb(49, 49, 49);">
+      <div id="blackBlockComputerE" class="col-12 d-none d-md-flex d-lg-flex d-xl-flex" style="height: 60vh; background-color: rgb(49, 49, 49);">
         <div class=" d-flex align-center" style="padding:0px;"></div>
         <div class="col-6  flex-column-reverse " id="introComputer">
             <div class="col-12 pb-0 d-flex justify-start"><h3>PROFILE INFO</h3></div>
@@ -21,18 +21,17 @@
         
         
       </div>
-      <div id="blackBlockPhone" class="col-12 d-sm-none align-center" style="background-color: rgb(49, 49, 49);">
-        <div id="line" class="col-4"><hr></div>
-        <div id="namePhone" style="color:white"><NameE/></div>
+      <div id="blackBlockPhoneE" class="col-12 d-md-none align-center" style="background-color: rgb(49, 49, 49);height:20vh">
+        
       </div>
-      <div id="introPhone" class="d-sm-none" ><IntroE/></div>
+      <div id="introPhoneE" class="d-md-none" ><IntroE/></div>
       <div id="skill">
         
       </div>
-      <div id="skillComputer" class="col-12 d-none d-md-flex d-lg-flex d-xl-flex">
+      <div id="skillComputerE" class="col-12 d-none d-md-flex d-lg-flex d-xl-flex">
           <SkillE/>
       </div>
-      <div id="skillPhone" class="d-sm-none align-center">
+      <div id="skillPhoneE" class="d-md-none align-center">
           <SkillE/>
       </div>
     </div>
@@ -46,13 +45,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Secular+One&display=swap');
 
-#imgPhone {
+#imgPhoneE {
   border-collapse: separate; 
   border-radius: 450px;
 }
-#nameComputer {
+#nameComputerE {
   h1 {
-    font-size: 60px;
+    font-size: 5vw;
     font-weight: 800;
     margin-left: 15vw;
     color:rgb(49, 49, 49);
@@ -60,13 +59,19 @@
     text-align: left;
   }
 }
-#namePhone {
+#namePhoneE {
+  margin: 6vh;
   h1 {
     font-weight: 900;
-
+    margin-top: 0px;
+    font-size: 12vw;
+  }
+  #one {
+    color: black;
+    text-shadow: 2px 2px white;
   }
 }
-#introComputer {
+#introComputerE {
 
   h3 {
     color: white;
@@ -97,11 +102,7 @@
     text-align: left;
   }
 }
-#line {
-  padding-top: 60px;
-  margin: auto;
-}
-#introPhone {
+#introPhoneE {
   
   body {
     color: rgb(49, 49, 49);
@@ -114,7 +115,7 @@
     font-family: 'Secular One', sans-serif;
   }
 }
-#skillComputer {
+#skillComputerE {
   color:rgb(49, 49, 49);
   h5 {
     margin-top: 5vh;
@@ -152,7 +153,7 @@
     }
   }
 }
-#skillPhone {
+#skillPhoneE {
   color:rgb(49, 49, 49);
   hr {
     width: 70px;
