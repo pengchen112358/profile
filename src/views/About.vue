@@ -6,7 +6,7 @@
         
       </div>
       <div id="whiteBlockPhoneE" class="col-12 d-md-none" style="height:15vh">
-        <div id="namePhoneE" style="color:white"><NameE/></div>
+        
       </div>
       <div id="blackBlockComputerE" class="col-12 d-none d-md-flex d-lg-flex d-xl-flex" style="height: 60vh; background-color: rgb(49, 49, 49);">
         <div class=" d-flex align-center" style="padding:0px;"></div>
@@ -22,7 +22,7 @@
         
       </div>
       <div id="blackBlockPhoneE" class="col-12 d-md-none align-center" style="background-color: rgb(49, 49, 49);height:20vh">
-        
+        <div id="namePhoneE" style="color:white"><NameE/></div>
       </div>
       <div id="introPhoneE" class="d-md-none" ><IntroE/></div>
       <div id="skill">
@@ -54,13 +54,14 @@
     font-size: 5vw;
     font-weight: 800;
     margin-left: 15vw;
+    margin-bottom: 1vh;
     color:rgb(49, 49, 49);
     display: flex;
     text-align: left;
   }
 }
 #namePhoneE {
-  margin: 6vh;
+  margin: -6vw;
   h1 {
     font-weight: 900;
     margin-top: 0px;
