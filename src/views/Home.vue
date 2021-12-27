@@ -56,7 +56,8 @@
 }
 #namePhone {
   position: absolute;
-  margin-top: 15vh;
+  margin-top: -8vh;
+  width: 100vw;
   h1 {
     font-weight: 900;
     text-shadow: 1px -3px 5px black;

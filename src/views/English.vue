@@ -65,8 +65,10 @@
   }
 }
 #namePhoneE {
-  margin-top: 22vh;
+  margin-top: -8vh;
   position: absolute;
+  width: 100vw;
+
   h1 {
     font-weight: 900;
     margin-top: 0px;
