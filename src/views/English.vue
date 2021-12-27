@@ -8,7 +8,7 @@
       <div id="whiteBlockPhoneE" class="col-12 d-md-none" style="height:15vh">
         
       </div>
-      <div id="namePhoneE" style="color:white"><NameE/></div>
+      <div id="namePhoneE" class="col-12 d-md-none" style="color:white"><NameE/></div>
       <div id="blackBlockComputerE" class="col-12 d-none d-md-flex d-lg-flex d-xl-flex" style="height: 60vh; background-color: rgb(49, 49, 49);">
         <div class=" d-flex align-center" style="padding:0px;"></div>
         <div class="col-6  flex-column-reverse " id="introComputer">
