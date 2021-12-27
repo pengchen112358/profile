@@ -54,10 +54,13 @@
     font-size: 5vw;
     font-weight: 800;
     margin-left: 15vw;
-    margin-bottom: 1vh;
+    margin-bottom: 8vh;
     color:rgb(49, 49, 49);
     display: flex;
     text-align: left;
+  }
+  #one {
+    margin-bottom: 0px;
   }
 }
 #namePhoneE {
