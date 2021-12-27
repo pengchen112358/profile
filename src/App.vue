@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/" style="margin:1px;">中文</router-link>
-      <router-link to="/about" style="margin:1px; margin-top:2.5px">English</router-link>
+      <router-link to="/english" style="margin:1px; margin-top:2.5px">English</router-link>
     </div>
 
     <router-view/>

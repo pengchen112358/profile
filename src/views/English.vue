@@ -6,8 +6,9 @@
         
       </div>
       <div id="whiteBlockPhoneE" class="col-12 d-md-none" style="height:15vh">
-        <div id="namePhoneE" style="color:white"><NameE/></div>
+        
       </div>
+      <div id="namePhoneE" style="color:white"><NameE/></div>
       <div id="blackBlockComputerE" class="col-12 d-none d-md-flex d-lg-flex d-xl-flex" style="height: 60vh; background-color: rgb(49, 49, 49);">
         <div class=" d-flex align-center" style="padding:0px;"></div>
         <div class="col-6  flex-column-reverse " id="introComputer">
@@ -64,15 +65,17 @@
   }
 }
 #namePhoneE {
-  margin: 6vw;
+  margin-top: 22vh;
+  position: absolute;
   h1 {
     font-weight: 900;
     margin-top: 0px;
     font-size: 12vw;
+    text-shadow: 2px 2px black;
   }
   #one {
     color: black;
-    text-shadow: 2px 2px white;
+    text-shadow: 2px 2px white !important;
   }
 }
 #introComputerE {
